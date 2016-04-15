@@ -1,5 +1,10 @@
-.navbar .navbar-default {
+.navbar-custom {
+    border: none;
     background-color: #008542;
+}
+
+.navbar-custom a {
+    color: #fff !important;
 }
 
 .introduction {
