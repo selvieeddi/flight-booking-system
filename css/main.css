@@ -5,3 +5,7 @@
 .introduction {
     margin-top: 39px;
 }
+
+.search-flights-container {
+    max-width: 700px;
+}
