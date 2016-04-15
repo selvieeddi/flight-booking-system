@@ -1,6 +1,6 @@
 .navbar-custom {
     border: none;
-    background-color: #008542;
+    background-color: #00796B;
 }
 
 .navbar-custom a {
@@ -13,4 +13,9 @@
 
 .search-flights-container {
     max-width: 700px;
+}
+
+.search-flights-btn {
+    background-color: #FF5252;
+    color: #fff;
 }
