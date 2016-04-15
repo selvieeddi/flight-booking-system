@@ -3,6 +3,11 @@
     background-color: #00796B;
 }
 
+.accent-background {
+    background-color: #FF5252;
+    color: #fff;
+}
+
 .navbar-custom a {
     color: #fff !important;
 }
@@ -15,7 +20,19 @@
     max-width: 700px;
 }
 
-.search-flights-btn {
-    background-color: #FF5252;
-    color: #fff;
+.search-flight-btn-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-below {
+    margin-bottom: 26px;
+}
+
+.blank-container {
+    border-radius: 1%;
+    margin-top: 56px;
+    padding: 8px 36px 36px;
+    background-color: #fefefe;
 }

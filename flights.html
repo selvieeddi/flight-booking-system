@@ -19,27 +19,31 @@
         </div>
     </nav>
 
-    <main class="container search-flights-container">
-        <h1>Search Flights</h1>
+    <main class="container search-flights-container blank-container">
+        <h1 class="space-below">Search Flights</h1>
         <form action="flight-details.html">
-        <div class="form-group">
-            <label>From</label>
-            <select class="form-control">
-                <option value="">Sydney</option>
-                <option value="">Melbourne</option>
-                <option value="">Perth</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>To</label>
-            <select class="form-control">
-                <option value="">Sydney</option>
-                <option value="">Melbourne</option>
-                <option value="">Perth</option>
-            </select>
-        </div>
-            <input type="submit" class="btn btn-default" value="< New Search">
-            <input type="submit" class="btn btn-default" value="Make Booking for selected flight >">
+            <div class="form-group space-below">
+                <label>From</label>
+                <select class="form-control">
+                    <option value="">Sydney</option>
+                    <option value="">Melbourne</option>
+                    <option value="">Perth</option>
+                </select>
+            </div>
+
+            <div class="form-group space-below">
+                <label>To</label>
+                <select class="form-control">
+                    <option value="">Sydney</option>
+                    <option value="">Melbourne</option>
+                    <option value="">Perth</option>
+                </select>
+            </div>
+
+            <div class="search-flight-btn-container">
+                <button type="submit" class="btn btn-default accent-background"><span class="glyphicon glyphicon-chevron-left"></span> New Search</button>
+                <button type="submit" class="btn btn-default accent-background">Book Flight <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
         </form>
     </main>
 </body>
